@@ -1,0 +1,7 @@
+applications:
+
+- name:      multi
+
+  memory:    64M
+
+  buildpack: https://github.com/cloudfoundry-community/staticfile-buildpack.git
