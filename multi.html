@@ -1,0 +1,30 @@
+<html>
+
+<body>
+
+<h2>Welocme </h2>
+ First Number: <input type="text" id="box1"  placeholder="firstnum" /></br></br>
+ 
+ Second Number: <input type="text" id="box2"  placeholder="secondnum" /></br></br>
+ 
+ 
+  <button type="submit"  id="press"  onClick="calculate()" >Multiply</button> </br></br>
+  
+   Total: <input type="total" id="result" placeholder="total" />.
+  
+<script>
+   function calculate() {
+		var myBox1 = document.getElementById('box1').value;	
+		var myBox2 = document.getElementById('box2').value;
+		var result = document.getElementById('result');	
+		var myResult = myBox1 * myBox2;
+		result.value = myResult;
+      
+		
+	}
+</script>
+
+</body>
+
+
+</html>
